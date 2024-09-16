@@ -1,0 +1,54 @@
+Pseudo Kod Çalışması
+
+1.Soru: Kullanıcıdan iki sayı alarak bu sayıları toplayan bir programın pseudo kodu.
+Pseudo Kod:
+Başla
+    Kullanıcıdan birinci sayıyı al ve birinci_sayı olarak kaydet
+    Kullanıcıdan ikinci sayıyı al ve ikinci_sayı olarak kaydet
+    toplam = birinci_sayı + ikinci_sayı
+    toplamı ekrana yazdır
+Bitir
+2. Soru: 1'den 100'e kadar olan sayıları toplayan bir programın pseudo kodu.
+Pseudo Kod:
+Başla
+    toplam = 0
+    sayaç = 1
+    1'den 100'e kadar tekrarla:
+        toplam = toplam + sayaç
+        sayaç = sayaç + 1
+    toplamı ekrana yazdır
+Bitir
+3. Soru: Kullanıcıdan alınan bir sayının asal olup olmadığını bulan bir programın pseudo kodu.
+Pseudo Kod:
+Başla
+    Kullanıcıdan bir sayı al ve sayı olarak kaydet
+    Eğer sayı <= 1 ise
+        "Sayı asal değildir" yazdır
+    Aksi takdirde
+        asal = true
+        2'den (sayı - 1)'e kadar olan her bir bölen için tekrarla:
+            Eğer sayı % bölen == 0 ise
+                asal = false
+                döngüden çık
+        Eğer asal == true ise
+            "Sayı asaldır" yazdır
+        Aksi takdirde
+            "Sayı asal değildir" yazdır
+Bitir
+4. Soru: Bir dizideki (array) elemanların tekrar edip etmediğini kontrol eden bir programın pseudo kodu.
+Pseudo Kod:
+Başla
+    Kullanıcıdan diziyi al ve dizi olarak kaydet
+    tekrar_var = false
+    Boş bir kontrol_listesi oluştur
+    Dizideki her eleman için tekrarla:
+        Eğer eleman kontrol_listesi içinde ise
+            tekrar_var = true
+            döngüden çık
+        Aksi takdirde
+            elemanı kontrol_listesine ekle
+    Eğer tekrar_var == true ise
+        "Dizide tekrar eden elemanlar var" yazdır
+    Aksi takdirde
+        "Dizide tekrar eden eleman yok" yazdır
+Bitir
